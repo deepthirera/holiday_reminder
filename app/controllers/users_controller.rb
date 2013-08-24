@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  def home
+
+  end
   def register
     p "*"*100
     p params.inspect
